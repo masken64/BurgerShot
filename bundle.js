@@ -16,7 +16,7 @@
   \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, ``, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://burgershot/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body{\n    background-color: #173669;\n    color: white;\n    font-family: \"Inter\", sans-serif;\n    margin: 0px;\n    padding: 20px;\n}\n.logo{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.listContainer button{\n    background-color: #be1a20;\n    text-decoration: none;\n    border: 1px transparent;\n    color: white;\n    font-family: \"Inter\", sans-serif;\n    font-weight: 600;\n    font-size: 32px;\n    padding: 10px;\n    border-radius: 10px;\n    width: 200px;\n    text-align: center;\n    cursor: pointer;\n}\n.listContainer{\n    display: flex;\n    gap :200px;\n    justify-content: space-around;\n    padding: 0;\n}\n.content{\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    font-size: 20px;\n    padding: 50px;\n}\n.content p{\n    text-align: center;\n}\n.contentContainer{\n    display: flex;\n    align-items: center;\n}\n#footer a{\n    cursor: pointer;\n    color: white;\n\n}\n#footer{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n   \n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://burgershot/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _out_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./out.png */ \"./src/out.png\");\n\n\n\nfunction loadHome() {\n    const content = document.createElement('div');\n    content.classList.add('content');\n    content.innerHTML = `\n        <h3 class=\"opening\">\"Burger Shot. Die with a smile on your face!\"</h3>\n        <p class=\"home\">Burger Shot: where heart disease meets happiness! Devour our factory-farmed delights, lovingly crafted to accelerate your journey to the grave with a grin. Join the global parade toward obesity and artery blockage! Remember, at Burger Shot, every bite brings you closer to that blissful, cholesterol-induced demise. Die with a smile on your face!</p>\n        <p class=\"closing\">KILL YOUR HUNGER</p>\n    `;\n    const contentContainer = document.querySelector('.contentContainer');\n    const myStore = new Image();\n    myStore.src = _out_png__WEBPACK_IMPORTED_MODULE_0__;\n    myStore.style.height = '200px';\n    myStore.style.borderRadius = '10px';\n    contentContainer.appendChild(myStore);\n    contentContainer.appendChild(content);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);\n\n\n//# sourceURL=webpack://burgershot/./src/home.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo.png */ \"./src/logo.png\");\n\n\n\nconst content = document.querySelector('#content');\ncontent.innerHTML = `\n<h3 class=\"opening\">\"Burger Shot. Die with a smile on your face!\"</h3>\n<p class=\"home\">America's favorite national quick service factory farmed restaurant chain, and shining beacon of the global march towards cultural homogenization.</p>\n<p class=\"closing\">KILL YOUR HUNGER</p>`;   \n\nconst logo = document.querySelector('.logo');\nconst myBurger = new Image();\nmyBurger.src = _logo_png__WEBPACK_IMPORTED_MODULE_1__;\nlogo.appendChild(myBurger);\n\n\n\n\n//# sourceURL=webpack://burgershot/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.png */ \"./src/logo.png\");\n\n\n\n\n\n\nconst logo = document.querySelector('.logo');\nconst myBurger = new Image();\nmyBurger.src = _logo_png__WEBPACK_IMPORTED_MODULE_2__;\nmyBurger.style.height = '200px';\nlogo.appendChild(myBurger);\n\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\nconst home = document.querySelector('.home');\nconst menu = document.querySelector('.menu');\nconst contact = document.querySelector('.contact');\n\n\nhome.addEventListener('click', handleHome);\nfunction handleHome(event){\n    const contentContainer = document.querySelector('.contentContainer');\n    contentContainer.innerHTML = '';\n    \n    (0,_home_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}\n\nmenu.addEventListener('click', handleMenu);\nfunction handleMenu(event){\n    const contentContainer = document.querySelector('.contentContainer');\n    contentContainer.innerHTML = '';\n    contentContainer.innerHTML = 'menu';\n    \n}\ncontact.addEventListener('click', handleContact);\nfunction handleContact(event){\n    const contentContainer = document.querySelector('.contentContainer');\n    contentContainer.innerHTML = '';\n    contentContainer.innerHTML = 'contact';\n    \n}\n\n\n\n\n\n//# sourceURL=webpack://burgershot/./src/index.js?");
 
 /***/ }),
 
@@ -127,6 +137,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"837862bb326208a2b2c1.png\";\n\n//# sourceURL=webpack://burgershot/./src/logo.png?");
+
+/***/ }),
+
+/***/ "./src/out.png":
+/*!*********************!*\
+  !*** ./src/out.png ***!
+  \*********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"21961bd9c3bc720948ef.png\";\n\n//# sourceURL=webpack://burgershot/./src/out.png?");
 
 /***/ })
 
